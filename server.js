@@ -169,6 +169,4 @@ app.delete('/api/events/:id', function(request, response) {
 /**
  * Server start
  */
-var appPort = 80;
-app.listen(appPort);
-console.log('Server running on port '+appPort);
+app.listen();
